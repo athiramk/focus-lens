@@ -51,8 +51,8 @@ const LandingScreen = ({ onStart }: LandingScreenProps) => {
             Start Focus Session
             <ArrowRight className="w-5 h-5" />
           </button>
-          <p className="text-xs text-muted-foreground mt-3">
-            Press start, focus on your work, and stop when you lose concentration.
+          <p className="text-sm text-muted-foreground/80 mt-4 font-body bg-card border border-border rounded-lg px-4 py-3 inline-block">
+            🎯 Press start, focus on your work, and stop when you lose concentration.
           </p>
         </div>
       </div>
