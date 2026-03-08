@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['DM Serif Display', 'serif'],
+        body: ['DM Sans', 'sans-serif'],
+      },
       colors: {
+        timer: {
+          DEFAULT: "hsl(var(--timer-bg))",
+          foreground: "hsl(var(--timer-foreground))",
+          accent: "hsl(var(--timer-accent))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
