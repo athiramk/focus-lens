@@ -4,7 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-base: "/focus-flow/",
+export default defineConfig(({ mode }) => ({
+  base: "/focus-flow/",
   server: {
     host: "::",
     port: 8080,
